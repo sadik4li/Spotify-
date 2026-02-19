@@ -177,7 +177,5 @@ UI/UX design in Power BI
 
 Analytical thinking
 
-![Overview]([images/overview.png](https://github.com/sadik4li/Spotify-/blob/main/Screenshot%202026-02-19%20144447.png))
-![Artists](images/artists.png)
-![Songs](images/songs.png)
+preview : ![Dashboard Preview](https://github.com/sadik4li/Spotify-/blob/main/Screenshot%202026-02-19%20144447.png)
 
