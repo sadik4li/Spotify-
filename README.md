@@ -1,4 +1,5 @@
 🎧 Spotify Analytics Dashboard – Power BI Project
+
 📌 Project Overview
 
 This project is an interactive Spotify Analytics Dashboard built using Microsoft Power BI.
@@ -6,7 +7,8 @@ The dashboard provides deep insights into songs, artists, albums, popularity tre
 
 The goal of this project is to transform raw Spotify dataset information into meaningful business insights using data modeling, DAX measures, and interactive visualizations.
 
-🚀 Key Features
+🚀 Key Features 
+
 🏠 Home Page
 
 Spotify-themed landing page
