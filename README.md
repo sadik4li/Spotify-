@@ -176,3 +176,8 @@ Dashboard storytelling
 UI/UX design in Power BI
 
 Analytical thinking
+
+![Overview](images/overview.png)
+![Artists](images/artists.png)
+![Songs](images/songs.png)
+
