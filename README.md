@@ -1,181 +1,155 @@
-🎧 Spotify Analytics Dashboard – Power BI Project
+🎧 Spotify Music Analytics Dashboard
+📁 Project Overview
 
-📌 Project Overview
+This project delivers an interactive Power BI dashboard that provides a comprehensive overview of Spotify songs, artists, albums, popularity trends, and release patterns.
 
-This project is an interactive Spotify Analytics Dashboard built using Microsoft Power BI.
-The dashboard provides deep insights into songs, artists, albums, popularity trends, release patterns, and explicit content distribution.
+The dashboard enables a multi-dimensional exploration of music performance data, focusing on artist dominance, song popularity, album distribution, explicit content trends, and monthly release insights.
 
-The goal of this project is to transform raw Spotify dataset information into meaningful business insights using data modeling, DAX measures, and interactive visualizations.
+Built with a Spotify-inspired dark theme, this project combines data modeling, DAX calculations, and interactive visual storytelling to transform raw music data into actionable insights.
 
-🚀 Key Features 
+📊 Dashboard Highlights
+📌 Key Performance Indicators (KPIs)
 
-🏠 Home Page
+•Total Distinct Songs → 789
 
-Spotify-themed landing page
+•Total Artists → 342
 
-Navigation buttons for:
+•Average Popularity Score → 90
 
-Home
+•Average Song Duration → 3.28 Minutes
 
-Overview
+🎛 Filters and Navigation
 
-Artists
+•Multi-Page Navigation → Home, Overview, Artists, Songs
 
-Songs
+•Interactive filtering across visuals
 
-Clean UI with a modern Spotify-inspired design
+•Dynamic charts responding to user selections
 
-📊 Overview Dashboard
+📈 Visualizations & Analysis
 
-Provides high-level performance metrics and trends:
+🎵 Song-Level Analysis
 
-Total Distinct Songs
+•Songs by Artist (Bar Chart) → Identifies artists with the highest number of tracks
 
-Total Artists
+•Songs by Popularity (Bar Chart) → Highlights top-performing songs
 
-Average Popularity
+•Hit Songs per Artist → Measures artist-level hit performance
 
-Average Song Duration
+•Detailed Song Table →
 
-Songs by Album Type (Single vs Album)
+        •Release Date
 
-Explicit vs Non-Explicit Song Distribution
+        •Album Type (Single / Album / Compilation)
 
-Songs by Year
+        •Average & Max Popularity
 
-Average Popularity by Album Type
+        •Average Duration
 
-Monthly Popularity Trend
+🎤 Artist-Level Insights
 
-Distinct Songs by Month
+•Artist by Popularity (Bar Chart) → Ranking artists by overall popularity
 
-This page gives a quick summary of the entire dataset.
+•Artist by Album Count → Compares album production across artists
 
-🎤 Artists Dashboard
+•Detailed Artist Table →
 
-Focused on artist-level analysis:
+        •Distinct Songs
 
-Songs by Artist (Top Artists by Song Count)
+        •Album Count
 
-Artist Popularity Ranking
+        •Average Tracks per Album
 
-Artist by Album Count
+        •Average Popularity
 
-Detailed artist table showing:
+📅 Trend & Distribution Analysis
 
-Album Type
+•Songs by Album Type (Donut Chart)
 
-Distinct Songs
+  •Albums: 562
 
-Album Count
+  •Singles: 269
 
-Average Tracks per Album
+  •Compilations: Remaining share
 
-Average Popularity
+•Explicit vs Non-Explicit Songs (Donut Chart)
 
-This page helps analyze which artists dominate in volume and popularity.
+  •Explicit Songs: 11K
 
-🎵 Songs Dashboard
+  •Non-Explicit Songs: 17K
 
-Detailed song-level analysis:
+•Songs by Year (Donut Chart) → Year-wise release comparison
 
-Songs by Artist
+•Average Popularity by Month (Line Chart)
 
-Songs by Popularity
+  •Shows fluctuations across months
 
-Hit Songs per Artist
+  •Identifies peak listening periods
 
-Release Date Analysis
+•Distinct Songs by Month (Column Chart)
 
-Album Type Distribution
+  •Highlights release distribution throughout the year
 
-Average & Maximum Popularity
+📂 Dataset Overview
 
-Average Duration (Minutes)
+The dataset includes song-level and artist-level metadata, such as:
 
-Detailed song-level data table
+•Song Name
 
-Enables exploration of high-performing songs and historical release trends.
+•Artist Name
 
-📈 Insights Generated
+•Album Type (Single / Album / Compilation)
 
-This dashboard helps answer questions like:
+•Release Date
 
-Which artists have the highest number of songs?
+•Popularity Score
 
-Which songs are the most popular?
+•Duration (Minutes)
 
-Are singles more popular than albums?
+•Explicit Indicator
 
-How does popularity change over months?
+•Album & Track Metadata
 
-What percentage of songs are explicit?
+🚀 Use Cases
 
-Which year had the most releases?
+•Music Trend Analysis → Identify peak release months and popularity trends
 
-Which artists produce the most albums?
+•Artist Performance Benchmarking → Compare artist productivity and popularity
 
-🛠 Tools & Technologies Used
+•Content Strategy Insights → Analyze impact of singles vs albums
 
-Microsoft Power BI
+•Explicit Content Monitoring → Track distribution of explicit tracks
 
-DAX (Data Analysis Expressions)
+•Portfolio Demonstration → Showcase Power BI data modeling & DAX expertise
 
-Data Modeling
+🛠 Technical Notes
 
-Custom Measures
+•Platform → Microsoft Power BI
 
-Interactive Visualizations
+•Data Modeling → Star schema with calculated measures
 
-Custom Themed UI (Spotify-inspired)
+•DAX Measures Used →
 
-📂 Dataset Details
+   •Distinct Count (Songs, Artists)
 
-The dataset includes:
+   •Average Popularity
 
-Song Name
+   •Average Duration
 
-Artist Name
+   •Album Type Distribution
 
-Album Type (Single / Album / Compilation)
+   •Monthly & Yearly Aggregations
 
-Release Date
+•Design → Custom Spotify-inspired dark UI with navigation buttons
 
-Popularity Score
+•Interactivity → Cross-filtering visuals and dynamic KPI cards
 
-Duration
+Index : ![Dashboard Preview](https://github.com/sadik4li/Spotify-/blob/main/Screenshot%202026-02-19%20144447.png)
 
-Explicit Flag
+Overview : ![Dashboard Preview](https://github.com/sadik4li/Spotify-/blob/main/Screenshot%202026-02-19%20144508.png)
 
-Track & Album Metadata
+Artist : ![Dashboard Preview](https://github.com/sadik4li/Spotify-/blob/main/Screenshot%202026-02-19%20144528.png)
 
-🎨 UI & Design
+Songs : ![Dashboard Preview](https://github.com/sadik4li/Spotify-/blob/main/Screenshot%202026-02-19%20144542.png)
 
-Dark theme inspired by Spotify
-
-Custom navigation buttons
-
-Clean layout with consistent spacing
-
-Card visuals for KPIs
-
-Donut, bar, and line charts for trend analysis
-
-Interactive filtering across all pages
-
-💡 Skills Demonstrated
-
-Data cleaning and transformation
-
-Data modeling and relationships
-
-Advanced DAX measures
-
-Dashboard storytelling
-
-UI/UX design in Power BI
-
-Analytical thinking
-
-preview : ![Dashboard Preview](https://github.com/sadik4li/Spotify-/blob/main/Screenshot%202026-02-19%20144447.png)
 
